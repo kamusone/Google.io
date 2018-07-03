@@ -1,0 +1,86 @@
+html {
+	height: 100%;
+}
+body {
+	min-height: 100%;
+	margin: 0;
+	padding: 0;
+}
+input {
+	width: 632px;
+	height: 40px;
+	padding-bottom: 2px;
+	box-shadow: -2px 2px #f2f2f2;
+}
+p {
+	margin-left: 15px;
+}
+span > a {
+	margin: 5px;
+}
+ul {
+	list-style-type: none;
+}
+li {
+	display: inline;
+	float: right;
+	padding: 5px;
+}
+
+a:link {
+	text-decoration: none;
+	color: black;
+}
+button:hover {
+	font-weight: bold;
+}
+#navbar {
+	height: 100px;
+}
+#container {
+	height: 300px;
+}
+#logo, #search_form, #buttons {
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+}
+#right {
+	float: right;
+}
+#left {
+	float: left;
+}
+#infos {
+	border-top: solid lightgray 2px;
+	padding: 10px;
+}
+#footer {
+	background-color: #f2f2f2;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100px;
+}
+#connexion {
+	background-color: #4286f4;
+	float: right;
+	color: white;
+	height: 30px;
+	border: none;
+	border-radius: 3px;
+	margin-right: 10px;
+}
+.button {
+	background-color: #f2f2f2;
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 10px;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
